@@ -13,28 +13,32 @@ function Home2() {
               WHAT I DO WITH <span className="purple">DATA</span>
             </h1>
 
-         <p className="home-about-body">
-  I work with <b className="purple">data</b> to find patterns and understand trends.
+           <p className="home-about-body">
+  I work with <b className="purple">data</b> to uncover patterns, analyze trends, and generate insights.
   <br /><br />
 
-  I’ve worked on a <b className="purple">retail clothing analysis</b> project, exploring sales, customer behavior, and key trends.
+  I’ve worked on projects like <b className="purple">war conflict analysis</b> and <b className="purple">campaign performance analysis</b>, where I explored how multiple factors influence outcomes and used statistical methods to understand relationships in data.
   <br /><br />
 
-I use{" "}
-<i><b className="purple"> Python, R, and SQL </b></i>
-  to clean, explore, and analyze data.
+  I also analyzed <b className="purple">retail sales data</b> to identify trends, customer behavior, and key business insights.
   <br /><br />
-Currently, I&apos;m building a{" "}
-<a
-  href="https://pawpaw-mu.vercel.app/"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="purple"
-  style={{ textDecoration: "none", fontWeight: "bold" }}
->
-  dog walking and grooming app (PawPaw)
-</a>{" "}
-and planning data analysis for its upcoming <b className="purple">e-commerce feature</b>.
+
+  I use{" "}
+  <i><b className="purple">Python, R, and SQL</b></i>{" "}
+  for data cleaning, exploratory analysis, and visualization.
+  <br /><br />
+
+  I’m currently working on{" "}
+  <a
+    href="https://pawpaw-mu.vercel.app/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="purple"
+    style={{ textDecoration: "none", fontWeight: "bold" }}
+  >
+    PawPaw
+  </a>{" "}
+  by analyzing publicly available data to understand market trends, demand patterns, and service opportunities.
 </p>
           </Col>
 
