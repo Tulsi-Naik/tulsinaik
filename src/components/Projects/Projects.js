@@ -25,7 +25,7 @@ function Projects() {
           {/* WAR PROJECT */}
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={salesImg} // replace later if you add war image
+              imgPath={warImg} // replace later if you add war image
               isBlog={false}
               title="War Conflict Analysis"
               description="Explored a war conflict dataset using Python (Pandas) to understand factors influencing impact and outcomes. Moved beyond single-variable analysis by combining multiple factors to uncover deeper patterns. Developed a custom impact metric using deaths, economic loss, and refugee data, and found that combined factors like terrain and climate provided stronger insights than individual variables."
@@ -36,7 +36,7 @@ function Projects() {
           {/* CAMPAIGN PROJECT */}
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={salesImg} // replace later if you add image
+              imgPath={campImg} // replace later if you add image
               isBlog={false}
               title="Campaign Performance Analysis"
               description="Analyzed marketing campaign data from Facebook and AdWords to study the relationship between clicks and conversions. Applied statistical testing and simple regression to understand performance differences. Evaluated campaign efficiency using conversion rate and cost per conversion, helping identify which platform delivered better results."
