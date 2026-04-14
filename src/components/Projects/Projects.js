@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
 import salesImg from "../../Assets/Projects/brightthread_sales.png";
-import warImg from "../../Assets/Projects/warImg";
+import warImg from "../../Assets/Projects/warImg.png";
 import campImg from "../../Assets/Projects/campImg.png";
 // (optional: add images later for war & campaign if you want)
 
