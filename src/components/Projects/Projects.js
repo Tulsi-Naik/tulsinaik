@@ -6,6 +6,7 @@ import Particle from "../Particle";
 import salesImg from "../../Assets/Projects/brightthread_sales.png";
 import warImg from "../../Assets/Projects/warImg.png";
 import campImg from "../../Assets/Projects/campImg.png";
+import spacexImg from "../../Assets/Projects/spacex.png";
 // (optional: add images later for war & campaign if you want)
 
 function Projects() {
@@ -54,6 +55,18 @@ function Projects() {
               ghLink="https://github.com/Tulsi-Naik/brightthreads-sales-analysis"
             />
           </Col>
+          
+          {/* Data Science */}
+
+          <Col md={4} className="project-card">
+  <ProjectCard
+    imgPath={spacexImg}
+    isBlog={false}
+    title="SpaceX Falcon 9 Landing Prediction"
+    description="Completed as part of the IBM Data Science Professional Certificate Capstone. Collected and analyzed Falcon 9 launch data using APIs, web scraping, SQL, and exploratory analysis. Built interactive maps and dashboards with Folium and Plotly Dash, and developed machine learning models to predict first-stage landing success, achieving a best accuracy of 83.3%."
+    ghLink="https://github.com/Tulsi-Naik/spacex-capstone"
+  />
+</Col>
 
         </Row>
       </Container>
